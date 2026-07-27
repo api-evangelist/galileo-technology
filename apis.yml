@@ -1,23 +1,63 @@
 aid: galileo-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/galileo-technology.png
 name: Galileo Technology
-description: Galileo Technology is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'Galileo Technology was a fabless semiconductor company founded in 1993
+  that designed and marketed complex semiconductor devices for high-performance embedded
+  control systems, principally in the area of data communications. Co-founded by Avigdor
+  Willenz (CEO), Manuel Alba (President), and Eyal Waldman (VP Engineering), the company
+  completed an IPO in 2000 and was acquired by Marvell Technology, Inc. in 2001 for
+  approximately $2.7 billion. It was an early Lightspeed Venture Partners investment
+  (1995). The company no longer operates independently and exposes no public developer
+  surface, API, or documentation; this profile is retained for network/portfolio lineage
+  only.'
 url: https://raw.githubusercontent.com/api-evangelist/galileo-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-acquired
+x-status: acquired
+x-acquired-by: Marvell Technology, Inc.
+x-acquired-year: 2001
+x-founded-year: 1993
+x-is-api-provider: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Semiconductors
+- Hardware
+- Embedded Systems
+- Data Communications
+- Networking
+- Fabless
+- Acquired
+- Defunct
 apis: []
+common:
+- type: CompanyProfile
+  url: https://lsvp.com/company/galileo-technology/
+  name: Lightspeed Portfolio Profile
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
