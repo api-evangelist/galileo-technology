@@ -33,7 +33,7 @@ x-acquired-by: Marvell Technology, Inc.
 x-acquired-year: 2001
 x-founded-year: 1993
 x-is-api-provider: false
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
