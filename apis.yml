@@ -59,6 +59,11 @@ tags:
 - Defunct
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/marvell-technology/
+  name: Marvell Technology
+  x-relationship: acquired
+  x-evidence: "Co-founded by Avigdor Willenz (CEO), Manuel Alba (President), and Eyal Waldman (VP Engineering), the company completed an IPO in 2000 and was acquired by Marvell Technology, Inc."
 - type: CompanyProfile
   url: https://lsvp.com/company/galileo-technology/
   name: Lightspeed Portfolio Profile
