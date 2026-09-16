@@ -23,15 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/galileo-technology.png
 name: Galileo Technology
-description: 'Galileo Technology was a fabless semiconductor company founded in 1993
-  that designed and marketed complex semiconductor devices for high-performance embedded
-  control systems, principally in the area of data communications. Co-founded by Avigdor
-  Willenz (CEO), Manuel Alba (President), and Eyal Waldman (VP Engineering), the company
-  completed an IPO in 2000 and was acquired by Marvell Technology, Inc. in 2001 for
-  approximately $2.7 billion. It was an early Lightspeed Venture Partners investment
-  (1995). The company no longer operates independently and exposes no public developer
-  surface, API, or documentation; this profile is retained for network/portfolio lineage
-  only.'
+description: Galileo Technology was a fabless semiconductor company founded in 1993 that designed and
+  marketed complex semiconductor devices for high-performance embedded control systems, principally in
+  the area of data communications. Co-founded by Avigdor Willenz (CEO), Manuel Alba (President), and Eyal
+  Waldman (VP Engineering), the company completed an IPO in 2000 and was acquired by Marvell Technology,
+  Inc. in 2001 for approximately $2.7 billion. It was an early Lightspeed Venture Partners investment
+  (1995). The company no longer operates independently and exposes no public developer surface, API, or
+  documentation; this profile is retained for network/portfolio lineage only.
 url: https://raw.githubusercontent.com/api-evangelist/galileo-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,14 +37,14 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: defunct-acquired
-x-status: acquired
+x-status: defunct
 x-acquired-by: Marvell Technology, Inc.
 x-acquired-year: 2001
 x-founded-year: 1993
 x-is-api-provider: false
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Semiconductors
@@ -63,7 +61,8 @@ common:
   url: https://apis.io/providers/marvell-technology/
   name: Marvell Technology
   x-relationship: acquired
-  x-evidence: "Co-founded by Avigdor Willenz (CEO), Manuel Alba (President), and Eyal Waldman (VP Engineering), the company completed an IPO in 2000 and was acquired by Marvell Technology, Inc."
+  x-evidence: Co-founded by Avigdor Willenz (CEO), Manuel Alba (President), and Eyal Waldman (VP Engineering),
+    the company completed an IPO in 2000 and was acquired by Marvell Technology, Inc.
 - type: CompanyProfile
   url: https://lsvp.com/company/galileo-technology/
   name: Lightspeed Portfolio Profile
